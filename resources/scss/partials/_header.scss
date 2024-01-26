@@ -11,7 +11,7 @@ header {
   background-color: #FFFFFF;
 }
 
-.container {
+header .container {
   @include container;
   @include flex-justify-center;
   align-items: stretch;
