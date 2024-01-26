@@ -7,7 +7,8 @@ Route::get('/', function () {
 
     $data = [
         'MenuItems' => config('navbar'),
-        'FooterTopLinks' => config('footer-top-links')
+        'FooterTopLinks' => config('footer-top-links'),
+        'FooterMidLinks' => config('footer-mid-links')
     ];
     // dd($data);
 

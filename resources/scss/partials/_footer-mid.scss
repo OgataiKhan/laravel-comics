@@ -1,0 +1,47 @@
+/* 
+********
+FOOTER MID
+********
+*/
+
+@use './variables' as *;
+@use './mixins' as *;
+
+.footer-mid {
+  background-image: url("../img/dc-logo-bg.png"), url("../img/footer-bg.jpg");
+  background-size: 580px, cover;
+  background-repeat: no-repeat;
+  background-position: left 80% center, left top;
+}
+
+.container {
+  @include container;
+  display: flex;
+  padding: 45px 0;
+}
+
+h4 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+ul {
+  padding-right: 30px;
+
+  li a {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #959595;
+    text-decoration: none;
+
+    &:hover {
+      color: $base-font;
+    }
+  }
+}
+
+.footerlisttitle-shop {
+  padding-top: 20px;
+}

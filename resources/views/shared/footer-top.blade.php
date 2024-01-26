@@ -5,7 +5,6 @@
       <li>
         <a href="#">
           <div class="banner-icon">
-            {{-- <img :src="link.iconPath" :alt="link.icon"> --}}
             <img src="{{ Vite::asset($FooterTopLink['iconPath']) }}" alt="">
           </div>
           <p>
