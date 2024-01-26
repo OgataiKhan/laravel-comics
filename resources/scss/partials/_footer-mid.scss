@@ -14,7 +14,7 @@ FOOTER MID
   background-position: left 80% center, left top;
 }
 
-.container {
+.footer-mid .container {
   @include container;
   display: flex;
   padding: 45px 0;
