@@ -5,9 +5,9 @@
     </div>
     <nav class="navbar">
       <ul class="header-menu">
-        @foreach ($menuitems as $menuitem)
+        @foreach ($MenuItems as $MenuItem)
         <li>
-          <a href="#">{{ $menuitem }}</a>
+          <a href="#">{{ $MenuItem }}</a>
         </li>
         @endforeach
       </ul>
