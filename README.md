@@ -1,2 +1,2 @@
-# Laravel Template
+# Laravel Comics
 

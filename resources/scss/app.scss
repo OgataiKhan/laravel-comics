@@ -1,5 +1,29 @@
+/* 
+********
+IMPORT
+********
+*/
+
+@use './partials/variables.scss' as *;
 @use './partials/reset.scss' as *;
+@use './partials/mixins.scss' as *;
+@use './partials/typography.scss' as *;
+
+/* 
+********
+COMMON
+********
+*/
 
 body {
-  background-color: green;
+  background-color: $base-color;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
 }
