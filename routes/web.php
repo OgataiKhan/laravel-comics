@@ -18,7 +18,8 @@ Route::get('/comics', function () {
         'MenuItems' => config('navbar'),
         'FooterTopLinks' => config('footer-top-links'),
         'FooterMidLinks' => config('footer-mid-links'),
-        'FooterBottomSocials' => config('footer-bottom-socials')
+        'FooterBottomSocials' => config('footer-bottom-socials'),
+        'Comics' => config('comics')
     ];
 
     return view('comics', $data);
