@@ -5,7 +5,18 @@
         @include('shared.jumbotron')
         <div class="container">
             <h2>Current Series</h2>
-            <p class="welcome-paragraph">Use the navbar above to navigate the site</p>
+            <ul class="products">
+                @foreach ($Comics as $Comic)
+                <li class="product-card">
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="{{ $Comic['thumb'] }}" alt="{{ $Comic['title'] }}">
+                      </div>
+                      <p>{{ $Comic['series'] }}</p>
+                    </div>
+                  </li>
+                @endforeach
+            </ul>
             @include('shared.load-more')
         </div>
     </main>
