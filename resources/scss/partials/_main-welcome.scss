@@ -4,12 +4,25 @@ MAIN WELCOME
 ********
 */
 
-@use './variables' as *;
-@use './mixins' as *;
-
-
-.welcome-paragraph {
-  padding-bottom: 50px;
+.about-paragraph {
+  padding-bottom: 20px;
   font-size: 1.3rem;
-  text-align: center;
+  
+}
+
+.about-paragraph:last-child {
+  padding-bottom: 50px;
+}
+
+.welcome-flex {
+  display: flex;
+  justify-content: space-between;
+  // gap: 50px;
+  .about {
+    width: 65%;
+  }
+  .about-img {
+    width: 28%;
+  }
+  padding-bottom: 50px;
 }

@@ -4,9 +4,6 @@ MAIN COMICS
 ********
 */
 
-@use './variables' as *;
-@use './mixins' as *;
-
 .products {
   display: flex;
   flex-wrap: wrap;
