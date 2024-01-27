@@ -6,6 +6,7 @@
         <div class="container">
             <h2>Current Series</h2>
             <p class="welcome-paragraph">Use the navbar above to navigate the site</p>
+            @include('shared.load-more')
         </div>
     </main>
 @endsection

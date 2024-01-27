@@ -1,0 +1,23 @@
+/* 
+********
+LOAD MORE BUTTON
+********
+*/
+
+@use './variables' as *;
+
+.btn-subsection {
+  text-align: center;
+  padding-bottom: 20px;
+
+  button {
+    text-transform: uppercase;
+    padding: 10px 60px;
+    background-color: $secondary-color;
+    display: inline-block;
+    font-size: 1rem;
+    color: $base-font;
+    border: none;
+    cursor: pointer;
+  }
+}
